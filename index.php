@@ -10,6 +10,9 @@
 
  // Updated from HKimhab
 
+ // git push (Update last in local to cloud) // update local to update cloud 
+ // git pull (Update and/or edite in Cloud not local)  // update cloud to update local 
+
 ?>
 
 <?php 
