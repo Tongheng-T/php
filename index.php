@@ -14,9 +14,11 @@
  // git push (Update last in local to cloud) // update local to update cloud 
  // git pull (Update and/or edite in Cloud not local)  // update cloud to update local 
 
+
+
 ?>
 
 <?php 
-   define("name", " Welcom to rean24");
+   define("name", " Welcom ");
    echo name;
 ?>
