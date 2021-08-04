@@ -8,6 +8,8 @@
  echo "study PHP at " . $txt2 . "<br>";
  echo "Sum: " . ($x + $y);
 
+ // Updated from HKimhab
+
 ?>
 
 <?php 
