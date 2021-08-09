@@ -12,27 +12,7 @@
 ?>
 
 
-<?php 
-   /*$txt = "W3Schools.com";
-   echo "I love $txt!";
-   echo "<br>";
-   echo "I love " . $txt . "!";
 
-   $x = 5;
-   $y = 4;
-   echo "<br>";
-
-   echo $x + $y;
-
-   $x = 5; // global scope
-
-function myTest() {
-  // using x inside this function will generate an error
-  echo "<p>Variable x inside function is: </p>";
-}
-myTest();
-
-echo "<p>Variable x outside function is: $x</p>";*/
 echo "<center>Hello PHP </center>";
 echo "<p><font color=blue>One lin simple string in blue color </font></p>";
 echo "<p><font color=#ff65>One lin simple string in blue color </font></p>";
