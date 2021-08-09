@@ -11,6 +11,7 @@
 
 ?>
 
+<?php
 
 
 echo "<center>Hello PHP </center>";
@@ -48,5 +49,9 @@ Salary statement for the Current month</font>
 </ul> ";
 
 
+echo "<h1> Salary of Mr.A is : $a$ </h1>";
+echo "<h1> Salary of Mr.B is : $b$ </h1>";
+echo "<h1> Salary of Mr.C is : $c$ </h1>";
+
+
 ?>
-Save: Demo2.php
