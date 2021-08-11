@@ -53,5 +53,113 @@ echo "<h1> Salary of Mr.A is : $a$ </h1>";
 echo "<h1> Salary of Mr.B is : $b$ </h1>";
 echo "<h1> Salary of Mr.C is : $c$ </h1>";
 
+if ($a>$b){
+    echo "A is Max!". $a;
+}else {
+    echo "B is Max! $b";
+   
+}
+echo "<br>";
 
+$overtime=60;
+if($overtime<=50)
+{
+    $pay_amt=1200;
+    $medical=1000;
+    echo "Pay Amount : $pay_amt : Medical : $medical";
+}
+else 
+{
+    $pay_amt=2000;
+    $medical=1500;
+    echo "Pay Amount : $pay_amt : Medical : $medical";
+}
+
+echo "<hr>";
+
+$score=89;
+if($score>=85 && $score<=100)
+   echo "Excellence...!";
+else if($score>=70 && $score<85)
+   echo "Very Good...!";
+else if($score>=50 && $score<70)
+   echo "Fairy...!";
+else 
+   echo "Fail...!";
+
+#==========================
+echo "<br>";
+
+$day='Friday';
+if($day=='Monday')
+{
+    echo "<h1> Laugh on $day, laugh for danger. </h1><br>";
+}elseif
+($day=='Tuesday')
+{
+    echo "<h1>Laugh on $day, kiss a stranger.</h1><br>";
+}elseif
+($day=='wednesday')
+{
+    echo "<h1>Laugh on $day, laugh for a letter.</h1><br>";
+}elseif
+($day=='Thursday')
+{
+    echo "<h1>Laugh on $day, something better.</h1><br>";
+}elseif
+($day=='Friday')
+{
+    echo "<h1>Laugh on $day, laugh for sorrow.</h1><br>";
+}elseif
+($day=='Saturday')
+{
+    echo "<h1>Laugh on $day, joy tomorrow.</h1><br>";
+}else
+{
+    echo "<h1>No information is available for this day.</h1><br>";
+}
+
+
+?>
+
+<?php 
+
+$i = 10;
+
+    if ($i == 10)
+    {
+        if ($i < 15)
+        echo "i is smaller than 15 ";
+
+        if ($i < 12)
+            echo "i is smaller than 12 too";
+        else 
+            echo "i is greater than 15";
+    }
+?>  
+
+<?php
+$x = 10;
+$y = '10';
+//echo var_dump($x);
+echo "<br>";
+if($x == $y){
+
+    echo "True";
+}else{
+    echo"False";
+}
+
+echo "<br>";
+
+echo var_dump($x);
+echo "<br>";
+echo var_dump($y);
+echo "<br>";
+if ($x === $y){
+    echo "True";
+}else{
+    echo"False";
+}
+//echo $x+$y;
 ?>
