@@ -22,8 +22,8 @@
 
   <input type="submit" value="Submit">
 </form> 
-
 <?php
+/*
 $overtime = 60 ;
 if ($overtime<=50)
 {
@@ -55,6 +55,7 @@ else
 {
 echo "x is smaller than y";
 }
+*/
 ?>
 <br>
 
@@ -65,41 +66,27 @@ $pri=70;
 $dis =0;
 if ($pri >=1 && $pri <=10 ){
   $dis=10/100;
-  $price_after_discount =$pri *$dis;
-  $final_price = $pri-$price_after_discount;
-  echo $final_price;
+
 }elseif($pri >=10 && $pri <=20){
   $dis=20/100;
-  $price_after_discount =$pri *$dis;
-  $final_price = $pri-$price_after_discount;
-  echo $final_price;
+ 
 }elseif($pri >=20 && $pri <=30){
   $dis=30/100;
-  $price_after_discount =$pri *$dis;
-  $final_price = $pri-$price_after_discount;
-  echo $final_price;
 }elseif($pri >=30 && $pri <=40){
   $dis=40/100;
-  $price_after_discount =$pri *$dis;
-  $final_price = $pri-$price_after_discount;
-  echo $final_price;
+  
 }elseif($pri >=40 && $pri <=50){
   $dis=50/100;
-  $price_after_discount =$pri *$dis;
-  $final_price = $pri-$price_after_discount;
-  echo $final_price;
 }elseif($pri >=50 && $pri <=60){
   $dis=60/100;
-  $price_after_discount =$pri *$dis;
-  $final_price = $pri-$price_after_discount;
-  echo $final_price;
 }else {
   $dis=70/100;
-  $price_after_discount =$pri *$dis;
-  $final_price = $pri-$price_after_discount;
-  echo $final_price;
 }
+$price_after_discount =$pri *$dis;
+$final_price = $pri-$price_after_discount;
+echo $final_price;
 ?>
+
 <br>
 <?php
 $score1 = 59;
