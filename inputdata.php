@@ -23,7 +23,7 @@
 
     <p> Name: <input type="text" name="name" value="" autofocus ></p>
 
-   <p>Male: <input type="radio" name="sex" value="Male" checked= "checked">
+   <p>Gender:  Male: <input type="radio" name="sex" value="Male" checked= "checked">
    
    Female: <input type="radio" name="sex" value="Female" checked= "checked"></p>
 
