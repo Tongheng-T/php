@@ -33,7 +33,7 @@
 
    &nbsp;&nbsp;&nbsp;
 
-   <input type="submit" name="clear" value="Clear" />
+   <input type="clear" name="clear" value="Clear" />
 
 </form>
 <?php
